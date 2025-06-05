@@ -1,7 +1,6 @@
 /*
 Desafio Super Trunfo Novatos - Cadastro das Cartas
 */
-
 #include <stdio.h>
 
 int main() {
