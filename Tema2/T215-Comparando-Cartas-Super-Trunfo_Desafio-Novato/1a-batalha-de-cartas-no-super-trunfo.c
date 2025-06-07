@@ -5,76 +5,77 @@
 
 int main() {
 
-    // Variáveis da Carta 1
-    char estado1[10];      // Sigla do estado (ex: SP)
-    char codigo1[3];       // Código da carta (ex: A01)
-    char nomeCidade1[50];  // Nome da cidade 
-    int populacao1;        // Número de habitantes
-    float area1;           // Área da cidade em km²
-    float pib1;            // PIB da cidade em bilhões        
-    int pontosTuristicos1; // Número de pontos turísticos
-    float densPop1;        // Densidade Populacional
+  // Declaração das variáveis da Carta 1
+    char estadoA[4];        //Sigla do Estado 1
+    char codigoA[4];        // Código da Carta 1 ex: "A01"
+    char nomeCidadeA[50];   //Nome da Cidade 1
+    float populacaoA;       //Popuplação da Cidade 1
+    float areaA;            //Área da Cidade 1 em km2
+    float pibA;             //PIB da Cidade 1
+    int pontosTuristicosA;  //Número de Pontos Turísticos Cidade 1
+    float densPopA;        // Densidade Populacional
     float mediaPIB1;       // PIB per Capita
     
-    // Variáveis da Carta 2
-    char estado2[10];      // Sigla do estado (RJ)
-    char codigo2[3];       // Código da carta (ex: B02)      
-    char nomeCidade2[50];  // Nome da cidade 
-    int populacao2;        // Número de habitantes
-    float area2;           // Área da cidade em km²
-    float pib2;            // PIB da cidade em bilhões
-    int pontosTuristicos2; // Número de pontos turísticos
-    float densPop2;        // Densidade Populacional
+    
+    // Declaração das variáveis da Carta 2
+    char estadoB[4];        //Sigla do Estado 2
+    char codigoB[4];        // Código da Carta 2 ex: "A01"
+    char nomeCidadeB[50];   //Nome da Cidade 2
+    float populacaoB;       //Popuplação da Cidade 2
+    float areaB;            //Área da Cidade 2 em km2
+    float pibB;             //PIB da Cidade 2
+    int pontosTuristicosB;  //Número de Pontos Turísticos Cidade 2
+    float densPopB;        // Densidade Populacional
     float mediaPIB2;       // PIB per Capita
 
-    // Leitura dos dados da Carta 1
-    printf("Cadastro da Carta 1:\n");
 
-    printf("Digite a sigla do Estado (ex: SP): ");
-    scanf(" %s", estado1);
 
-    printf("Digite o código da carta (ex: A01): ");
-    scanf(" %s", codigo1);
-
-    printf("Digite o nome da cidade SEM ESPAÇOS (ex: SãoPaulo): ");
-    scanf(" %s", nomeCidade1);
-
-    printf("Digite a população da cidade: ");
-    scanf(" %d", &populacao1);
-
-    printf("Digite a área da cidade (em km²): ");
-    scanf(" %f", &area1);
-
-    printf("Digite o PIB da cidade (em bilhões de reais): ");
-    scanf(" %f", &pib1);
-
-    printf("Digite o número de pontos turísticos: ");
-    scanf(" %d", &pontosTuristicos1);
+    // Entrada de dados para a Carta 1
+    printf("Digite os dados da Carta 1:\n");
+    printf("Estado (ex. SP): ");
+    scanf("%s", estadoA);
     
+    printf("Código da Carta (ex: A01): ");
+    scanf("%s", codigoA);
 
-    // Leitura dos dados da Carta 2
-    printf("\nCadastro da Carta 2:\n");
+    printf("Nome da Cidade (ex. São_Paulo): ");
+    scanf("%s", nomeCidadeA);
 
-    printf("Digite a sigla do Estado (ex: RJ): ");
-    scanf(" %s", estado2);
+    printf("População: ");
+    scanf("%f", &populacaoA);
 
-    printf("Digite o código da carta (ex: B02): ");
-    scanf(" %s", codigo2);
+    printf("Área (em km2): ");
+    scanf("%f", &areaA);
 
-    printf("Digite o nome da cidade SEM ESPAÇOS (ex: RioDeJaneiro): ");
-    scanf(" %s", nomeCidade2);
+    printf("PIB (em bilhões de Reais): ");
+    scanf("%f", &pibA);
 
-    printf("Digite a população da cidade: ");
-    scanf(" %d", &populacao2);
+    printf("Número de Pontos Turísticos: ");
+    scanf("%d", &pontosTuristicosA);
 
-    printf("Digite a área da cidade (em km²): ");
-    scanf(" %f", &area2);
+   
+    // Entrada de dados para a Carta 2
+    printf("\nDigite os dados da Carta 2:\n");
+    printf("Estado (ex. RJ): ");
+    scanf("%s", estadoB);
 
-    printf("Digite o PIB da cidade (em bilhões de reais): ");
-    scanf(" %f", &pib2);
+    printf("Código da Carta (ex: B02): ");
+    scanf("%s", codigoB);
 
-    printf("Digite o número de pontos turísticos: ");
-    scanf(" %d", &pontosTuristicos2);
+    printf("Nome da Cidade (ex. Rio_de_Janeiro) ");
+    scanf("%s", nomeCidadeB);
+
+    printf("População: ");
+    scanf("%f", &populacaoB);
+
+    printf("Área (em km2): ");
+    scanf("%f", &areaB);
+
+    printf("PIB (em bilhões de Reais): ");
+    scanf("%f", &pibB);
+
+    printf("Número de Pontos Turísticos: ");
+    scanf("%d", &pontosTuristicosB);
 
     //Cálculo das Densidades Populacionais de cada carta
 
