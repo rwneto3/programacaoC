@@ -1,5 +1,5 @@
 
-/*Desafio Cartas Super Trunfo - Aventureiro*/
+/*Desafio Cartas Super Trunfo - Novato*/
 /*Calculando Densidade Populacional e PIB per Capita*/
 #include <stdio.h>
 
