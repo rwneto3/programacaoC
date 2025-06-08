@@ -1,6 +1,6 @@
 
 /*Desafio Cartas Super Trunfo - Novato*/
-/*COMPARAÇÃO DE CARTAS*/
+/*COMPARAÇÃO DE CARTAS ão)*/
 /*Atributo escolhido: POPULAÇÃO (direto no código)*/
 /*Não foi mencionado na proposta do desafio, mas foram incluídas verificações */
 /*Para evitar divisões por 0 (ZERO) nos cálculos de Densidade Populacional e de Renda Per Capita*/
